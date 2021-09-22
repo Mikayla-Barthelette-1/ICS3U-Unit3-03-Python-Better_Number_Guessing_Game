@@ -12,9 +12,9 @@ def main():
 
     # input
     number_guessed = int(input("Enter the number between 0 - 9: "))
-    random_number = random.randint(0, 9)  # a number between 0 and 9
 
     # process
+    random_number = random.randint(0, 9)  # a number between 0 and 9
     if number_guessed == random_number:
         print("You guessed correct!")
     else:
